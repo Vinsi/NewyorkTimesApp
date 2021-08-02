@@ -17,6 +17,7 @@ struct ArticleView: View {
         HStack {
             if let imageURL = article.media?.first?.mediaMetadata?.first?.url,
                let url = URL(string: imageURL) {
+                
                 URLImage(url,
                          failure: { error, _ in
                             PlaceholderImageView()
@@ -28,6 +29,7 @@ struct ArticleView: View {
                 })
                     .frame(width: 100, height: 100)
                     .cornerRadius(10)
+              
             } else {
                 PlaceholderImageView()
             }

@@ -7,5 +7,6 @@
 
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
-API_BASE_URL = api.staging.example.com
+NYTIMES_BASE_URL = api.nytimes.com
 NYTIMES_TOKEN = gkSxEIz0xlwnK1bTZgTCPAdIh2LmXb7Y
+

@@ -10,63 +10,80 @@ import Foundation
 protocol APIBuilder {
     
     var urlRequest: URLRequest { get }
-    var baseURL: URL { get }
+    var baseURL: String { get }
     var path: String { get }
-    var query: String { get }
-
+    var query: [String: String] { get }
+    
 }
 
-struct OpenWeatherMapAPI: APIBuilder {
-    
-    enum Parameter {
-        case forcast(city: String)
-        case current(cityId: String)
-       
-        
-    }
-    
-    var version: String {
-        "2.5"
-    }
+extension  APIBuilder {
     
     var urlRequest: URLRequest {
-        
+        let param = query.reduce("", {
+            "\($0)&\($1.key)=\($1.value)"
+        })
+        let url = "https://\(baseURL)/\(path)?\(param)"
+        return URLRequest(url:  URL(string: url)!)
     }
+}
+
+struct NewsAPI: APIBuilder {
     
-    
-    var url: String {
-        [AppConfiguration.shared.selectedEnvironment.apiPath,
-         version].joined(separator: "/")
-    }
-    
-    var queryParameter: String {
-        var params = [String:String]()
-        params["appid"] = AppConfiguration.shared.selectedEnvironment.token
-        params["units"] = "metric"
-        
-        switch self {
-        case .forcast(let city):
-            params["q"] = city
-        case .current( let cityID):
-            params["id"] = cityID
+    var query: [String: String] {
+        guard let token = key else {
+            fatalError("token empty")
         }
-        return params.reduce("") {
-            $0 + "\($1.0)=\($1.1)&"
-        }
+        return [ "api-key": token]
     }
-    
-    var baseURL: URL {
-        guard let url = URL(string: url + "?" + queryParameter) else {
-            fatalError("baseURL not found")
-        }
-        return url
-    }
+    var version: Version = .v2
+    var type: ResponseType = .json
+    var parameter: Parameter
+    private let key: String? = Configuration.value(for: .nytToken)
+    let baseURL: String = Configuration.value(for: .nytBaseURL)!
     
     var path: String {
-        return "forecast"
+        
+        let basePath = "svc/mostpopular"
+        switch parameter {
+        case .mostViewed(let section, let days):
+            return [ basePath,
+                     version.rawValue,
+                     parameter.path,
+                     section.rawValue,
+                     "\(days.rawValue).\(type.rawValue)"
+            ].joined(separator: "/")
+        }
+    }
+}
+
+// MARK:- Types
+extension NewsAPI {
+    
+    enum Version: String {
+        case v1
+        case v2
     }
     
-    var headers: [String : String]? {
-        return ["ContentType": "application/json"]
+    enum Section: String {
+        
+        case allSections = "all-sections"
+        case others
+    }
+    
+    enum Period: Int {
+        case oneDayAgo = 1
+        case sevenDaysAgo = 7
+        case thirtyDaysAgo = 30
+    }
+    
+    enum Parameter {
+        case mostViewed(section: Section, days: Period)
+        var path: String {
+            "mostviewed"
+        }
+    }
+    
+    enum ResponseType: String {
+        case json
     }
 }

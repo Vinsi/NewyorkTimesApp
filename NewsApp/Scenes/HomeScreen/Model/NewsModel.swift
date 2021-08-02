@@ -8,12 +8,11 @@
 
 // MARK: - NewsResponse
 struct NewsResponse: Codable {
+    
     let status: String?
     let copyright: String?
     let numResults: Int?
     let results: [Result]?
-
-    
 }
 
 // MARK: - Result
@@ -58,7 +57,7 @@ struct Media: Codable {
         case caption
         case copyright
         case approvedForSyndication
-        case mediaMetadata
+        case mediaMetadata = "media-metadata"
     }
 }
 

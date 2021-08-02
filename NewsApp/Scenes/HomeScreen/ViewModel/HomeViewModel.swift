@@ -15,7 +15,6 @@ protocol NewsViewModel {
 class NewsViewModelImpl: ObservableObject, NewsViewModel {
     
     private let service: NewsService
-    
     private(set) var articles = [Result]()
     private var cancellables = Set<AnyCancellable>()
     

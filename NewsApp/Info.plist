@@ -58,5 +58,14 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NYTIMES_BASE_URL</key>
+	<string>$(NYTIMES_BASE_URL)</string>
+	<key>NYTIMES_TOKEN</key>
+	<string>$(NYTIMES_TOKEN)</string>
 </dict>
 </plist>
