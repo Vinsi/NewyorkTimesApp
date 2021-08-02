@@ -11,7 +11,7 @@ import URLImage
 
 struct ArticleView: View {
     
-    let article: Result
+    let article: NewsResponse.Result
     
     var body: some View {
         HStack {
@@ -56,12 +56,12 @@ struct PlaceholderImageView: View {
 
 struct ArticleView_Previews: PreviewProvider {
     static var previews: some View {
-        ArticleView(article: Result.dummyData)
+        ArticleView(article: NewsResponse.Result.dummyData)
             .previewLayout(.sizeThatFits)
     }
 }
-extension Result {
-    static var dummyData: Result { undefined()}
+extension NewsResponse.Result {
+    static var dummyData: NewsResponse.Result { undefined()}
 }
 
 func undefined<T>() -> T {

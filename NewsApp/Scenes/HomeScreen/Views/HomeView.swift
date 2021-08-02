@@ -11,7 +11,7 @@ import SwiftUI
 struct HomeView: View {
     
     @Environment(\.openURL) var openURL
-    @StateObject var viewModel = NewsViewModelImpl(service: NewsServiceImpl())
+    @StateObject var viewModel = NewsViewModelImpl(articleRepository: ArticleRepository(newService: NewsServiceImpl()))
     
     var body: some View {
         Group {

@@ -14,20 +14,19 @@ protocol NewsViewModel {
 
 class NewsViewModelImpl: ObservableObject, NewsViewModel {
     
-    private let service: NewsService
-    private(set) var articles = [Result]()
+    private let articleRepository: ArticleRepository
+    private(set) var articles = [NewsResponse.Result]()
     private var cancellables = Set<AnyCancellable>()
     
-    @Published private(set) var state: ResultState<[Result]> = .loading
+    @Published private(set) var state: ResultState<[NewsResponse.Result]> = .loading
     
-    init(service: NewsService) {
-        self.service = service
+    init(articleRepository: ArticleRepository) {
+        self.articleRepository = articleRepository
     }
     
     func getArticles() {
         self.state = .loading
-        let cancellable = service
-            .request(from: .init(parameter: .mostViewed(section: .allSections, days: .sevenDaysAgo)))
+        let cancellable = articleRepository.getAll()
             .sink { (res) in
                 switch res {
                 case .finished:
@@ -35,8 +34,8 @@ class NewsViewModelImpl: ObservableObject, NewsViewModel {
                 case .failure(let error):
                     self.state = .failed(error: error)
                 }
-            } receiveValue: { (response) in
-                self.articles = response.results ?? []
+            } receiveValue: { articles in
+                self.articles = articles
             }
         self.cancellables.insert(cancellable)
     }

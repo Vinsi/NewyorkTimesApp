@@ -28,7 +28,7 @@ struct NewsServiceImpl: NewsService {
                 
                 if (200...299).contains(response.statusCode) {
                     let jsonDecoder = JSONDecoder()
-                    jsonDecoder.dateDecodingStrategy = .iso8601
+                    //jsonDecoder.dateDecodingStrategy = .iso8601
                     return Just(data)
                         .decode(type: NewsResponse.self, decoder: jsonDecoder)
                         .mapError { _ in APIError.decodingError }
