@@ -8,14 +8,11 @@
 import Foundation
 import Combine
 
-protocol Service {
-    
-    func request(from endpoint: NewsAPI) -> AnyPublisher<NewsResponse, APIError>
-}
+protocol Service { }
 
 extension Service {
     
-    func request<T:APIBuilder, R: Codable>(from endpoint: T, ResponseType: R.Type) -> AnyPublisher<R, APIError> {
+    func request<T:APIBuilder, R: Codable>(from endpoint: T, responseType: R.Type) -> AnyPublisher<R, APIError> {
         return URLSession
             .shared
             .dataTaskPublisher(for: endpoint.urlRequest)
@@ -31,7 +28,8 @@ extension Service {
                     //jsonDecoder.dateDecodingStrategy = .iso8601
                     return Just(data)
                         .decode(type: R.self, decoder: jsonDecoder)
-                        .mapError { _ in APIError.decodingError }
+                        .mapError { _ in
+                            APIError.decodingError }
                         .eraseToAnyPublisher()
                 } else {
                     return Fail(error: APIError.errorCode(response.statusCode)).eraseToAnyPublisher()
@@ -44,6 +42,6 @@ extension Service {
 struct NewsServiceImpl: Service {
     
     func request(from endpoint: NewsAPI) -> AnyPublisher<NewsResponse, APIError> {
-        return request(from: endpoint, ResponseType: NewsResponse.self)
+         request(from: endpoint, responseType: NewsResponse.self)
     }
 }
