@@ -37,7 +37,7 @@ struct ArticleView: View {
                 Text(article.title ?? "")
                     .foregroundColor(.black)
                     .font(.system(size: 18, weight: .semibold))
-                Text(article.source?.rawValue ?? "")
+                Text(article.source ?? "")
                     .foregroundColor(.gray)
                     .font(.footnote)
             })

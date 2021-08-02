@@ -21,14 +21,13 @@ struct Result: Codable, Identifiable {
     let url: String?
     let id: Int?
     let assetid: Int?
-    let source: Source?
+    let source: String?
     let publishedDate: String?
     let updated: String?
     let section: String?
-    let subsection: Subsection?
+    let subsection: String?
     let nytdsection: String?
     let adxKeywords: String?
-    let column: JSONNull?
     let byline: String?
     let type: ResultType?
     let title: String?
@@ -44,8 +43,8 @@ struct Result: Codable, Identifiable {
 
 // MARK: - Media
 struct Media: Codable {
-    let type: MediaType?
-    let subtype: Subtype?
+    let type: String?
+    let subtype: String?
     let caption: String?
     let copyright: String?
     let approvedForSyndication: Int?
@@ -64,7 +63,7 @@ struct Media: Codable {
 // MARK: - MediaMetadatum
 struct MediaMetadatum: Codable {
     let url: String?
-    let format: Format?
+    let format: String?
     let height: Int?
     let width: Int?
 
@@ -74,31 +73,6 @@ struct MediaMetadatum: Codable {
         case height
         case width
     }
-}
-
-enum Format: String, Codable {
-    case mediumThreeByTwo210 = "mediumThreeByTwo210"
-    case mediumThreeByTwo440 = "mediumThreeByTwo440"
-    case standardThumbnail = "Standard Thumbnail"
-}
-
-enum Subtype: String, Codable {
-    case photo = "photo"
-}
-
-enum MediaType: String, Codable {
-    case image = "image"
-}
-
-enum Source: String, Codable {
-    case newYorkTimes = "New York Times"
-}
-
-enum Subsection: String, Codable {
-    case empty = ""
-    case move = "Move"
-    case olympics = "Olympics"
-    case politics = "Politics"
 }
 
 enum ResultType: String, Codable {
