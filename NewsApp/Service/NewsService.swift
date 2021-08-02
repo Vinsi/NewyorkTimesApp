@@ -8,20 +8,20 @@
 import Foundation
 import Combine
 
-protocol NewsService {
-    func request( from endpoint: NewsAPI ) -> AnyPublisher<
-    NewsResponse,APIError>
+protocol Service {
+    
+    func request(from endpoint: NewsAPI) -> AnyPublisher<NewsResponse, APIError>
 }
 
-struct NewsServiceImpl: NewsService {
+extension Service {
     
-    func request(from endpoint: NewsAPI) -> AnyPublisher<NewsResponse, APIError> {
+    func request<T:APIBuilder, R: Codable>(from endpoint: T, ResponseType: R.Type) -> AnyPublisher<R, APIError> {
         return URLSession
             .shared
             .dataTaskPublisher(for: endpoint.urlRequest)
             .receive(on: DispatchQueue.main)
             .mapError { _ in APIError.unknown }
-            .flatMap { data, response -> AnyPublisher<NewsResponse, APIError> in
+            .flatMap { data, response -> AnyPublisher<R, APIError> in
                 guard let response = response as? HTTPURLResponse else {
                     return Fail(error: APIError.unknown).eraseToAnyPublisher()
                 }
@@ -30,7 +30,7 @@ struct NewsServiceImpl: NewsService {
                     let jsonDecoder = JSONDecoder()
                     //jsonDecoder.dateDecodingStrategy = .iso8601
                     return Just(data)
-                        .decode(type: NewsResponse.self, decoder: jsonDecoder)
+                        .decode(type: R.self, decoder: jsonDecoder)
                         .mapError { _ in APIError.decodingError }
                         .eraseToAnyPublisher()
                 } else {
@@ -38,5 +38,12 @@ struct NewsServiceImpl: NewsService {
                 }
             }
             .eraseToAnyPublisher()
+    }
+}
+
+struct NewsServiceImpl: Service {
+    
+    func request(from endpoint: NewsAPI) -> AnyPublisher<NewsResponse, APIError> {
+        return request(from: endpoint, ResponseType: NewsResponse.self)
     }
 }

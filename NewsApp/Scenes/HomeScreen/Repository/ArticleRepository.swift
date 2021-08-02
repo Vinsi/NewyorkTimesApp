@@ -11,7 +11,7 @@ import Combine
 struct ArticleRepository: RepositoryType {
     
     typealias OutputType = [NewsResponse.Result]
-    let newService: NewsService
+    let newService: NewsServiceImpl
     func getAll() -> AnyPublisher<[NewsResponse.Result], RepoError> {
         newService.request(from: .init(parameter: .mostViewed(section: .allSections, days: .sevenDaysAgo))).compactMap(\.results)
             .mapError({ err in RepoError.serverError(ApiError: err)})
