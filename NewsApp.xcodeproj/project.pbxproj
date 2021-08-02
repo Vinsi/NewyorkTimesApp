@@ -16,6 +16,8 @@
 		A967E5D026B6C4A500021E0F /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = A967E5CF26B6C4A500021E0F /* URLImage */; };
 		A967E5F126B74E7600021E0F /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A967E5F026B74E7600021E0F /* Repository.swift */; };
 		A96EDDAD26B7FAF400E6F7F2 /* ArticleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96EDDAC26B7FAF400E6F7F2 /* ArticleRepository.swift */; };
+		A96EDDBC26B7FE9500E6F7F2 /* OHHTTPStubsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A96EDDBB26B7FE9500E6F7F2 /* OHHTTPStubsSwift */; };
+		A96EDDCB26B806CF00E6F7F2 /* news.json in Resources */ = {isa = PBXBuildFile; fileRef = A96EDDCA26B806CF00E6F7F2 /* news.json */; };
 		A9CF4F2826B68EAD001F1D01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CF4F2726B68EAD001F1D01 /* AppDelegate.swift */; };
 		A9CF4F2A26B68EAD001F1D01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CF4F2926B68EAD001F1D01 /* SceneDelegate.swift */; };
 		A9CF4F2C26B68EAD001F1D01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CF4F2B26B68EAD001F1D01 /* ContentView.swift */; };
@@ -58,6 +60,7 @@
 		A967E5C926B6C45800021E0F /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
 		A967E5F026B74E7600021E0F /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		A96EDDAC26B7FAF400E6F7F2 /* ArticleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRepository.swift; sourceTree = "<group>"; };
+		A96EDDCA26B806CF00E6F7F2 /* news.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = news.json; sourceTree = "<group>"; };
 		A97C99D026B6AF1A00AB935B /* QA.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QA.xcconfig; sourceTree = "<group>"; };
 		A97C99E626B6B08E00AB935B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9CF4F2426B68EAD001F1D01 /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A96EDDBC26B7FE9500E6F7F2 /* OHHTTPStubsSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +170,21 @@
 			path = Repository;
 			sourceTree = "<group>";
 		};
+		A96EDDBA26B7FE9500E6F7F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A96EDDC926B806B700E6F7F2 /* stub */ = {
+			isa = PBXGroup;
+			children = (
+				A96EDDCA26B806CF00E6F7F2 /* news.json */,
+			);
+			path = stub;
+			sourceTree = "<group>";
+		};
 		A97C99B126B6AB8000AB935B /* Environment */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +203,7 @@
 				A9CF4F3D26B68EAF001F1D01 /* NewsAppTests */,
 				A9CF4F4826B68EAF001F1D01 /* NewsAppUITests */,
 				A9CF4F2526B68EAD001F1D01 /* Products */,
+				A96EDDBA26B7FE9500E6F7F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -229,6 +249,7 @@
 		A9CF4F3D26B68EAF001F1D01 /* NewsAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				A96EDDC926B806B700E6F7F2 /* stub */,
 				A9CF4F3E26B68EAF001F1D01 /* NewsAppTests.swift */,
 				A9CF4F4026B68EAF001F1D01 /* Info.plist */,
 			);
@@ -313,6 +334,9 @@
 				A9CF4F3C26B68EAF001F1D01 /* PBXTargetDependency */,
 			);
 			name = NewsAppTests;
+			packageProductDependencies = (
+				A96EDDBB26B7FE9500E6F7F2 /* OHHTTPStubsSwift */,
+			);
 			productName = NewsAppTests;
 			productReference = A9CF4F3A26B68EAF001F1D01 /* NewsAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -368,6 +392,7 @@
 			mainGroup = A9CF4F1B26B68EAD001F1D01;
 			packageReferences = (
 				A967E5CE26B6C4A500021E0F /* XCRemoteSwiftPackageReference "url-image" */,
+				A96EDDB426B7FE0400E6F7F2 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */,
 			);
 			productRefGroup = A9CF4F2526B68EAD001F1D01 /* Products */;
 			projectDirPath = "";
@@ -395,6 +420,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A96EDDCB26B806CF00E6F7F2 /* news.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,6 +565,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NewsApp/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = NewsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -559,6 +586,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = NewsAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -659,6 +687,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"NewsApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = NewsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -678,6 +707,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = NewsAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -778,6 +808,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"NewsApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = NewsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -797,6 +828,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = NewsAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -886,6 +918,14 @@
 				minimumVersion = 3.1.0;
 			};
 		};
+		A96EDDB426B7FE0400E6F7F2 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AliSoftware/OHHTTPStubs";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -893,6 +933,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A967E5CE26B6C4A500021E0F /* XCRemoteSwiftPackageReference "url-image" */;
 			productName = URLImage;
+		};
+		A96EDDBB26B7FE9500E6F7F2 /* OHHTTPStubsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A96EDDB426B7FE0400E6F7F2 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */;
+			productName = OHHTTPStubsSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

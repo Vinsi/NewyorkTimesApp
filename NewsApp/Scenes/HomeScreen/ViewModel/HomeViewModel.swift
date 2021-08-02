@@ -8,11 +8,11 @@
 import Foundation
 import Combine
 
-protocol NewsViewModel {
+protocol NewsViewModelType {
     func getArticles()
 }
 
-class NewsViewModelImpl: ObservableObject, NewsViewModel {
+final class HomeViewModel: ObservableObject, NewsViewModelType {
     
     private let articleRepository: ArticleRepository
     private(set) var articles = [NewsResponse.Result]()

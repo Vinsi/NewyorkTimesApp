@@ -1,0 +1,1227 @@
+
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2021 The New York Times Company.  All Rights Reserved.",
+    "num_results": 20,
+    "results": [
+        {
+            "uri": "nyt://article/ce5249ee-7edc-5e8c-b356-a19c1b1dd0db",
+            "url": "https://www.nytimes.com/2021/07/27/health/cdc-masks-indoors-delta-variant.html",
+            "id": 100000007888407,
+            "asset_id": 100000007888407,
+            "source": "New York Times",
+            "published_date": "2021-07-27",
+            "updated": "2021-07-30 13:19:35",
+            "section": "Health",
+            "subsection": "",
+            "nytdsection": "health",
+            "adx_keywords": "Masks;Coronavirus (2019-nCoV);Vaccination and Immunization;Coronavirus Risks and Safety Concerns;Centers for Disease Control and Prevention;United States",
+            "column": null,
+            "byline": "By Daniel E. Slotnik, Apoorva Mandavilli and Sheryl Gay Stolberg",
+            "type": "Article",
+            "title": "Here’s what we know about the C.D.C.’s new mask recommendations for vaccinated people.",
+            "abstract": "The new guidance calls for masks in schools and indoors in areas with low rates of vaccination for everyone regardless of vaccination status.",
+            "des_facet": [
+                "Masks",
+                "Coronavirus (2019-nCoV)",
+                "Vaccination and Immunization",
+                "Coronavirus Risks and Safety Concerns"
+            ],
+            "org_facet": [
+                "Centers for Disease Control and Prevention"
+            ],
+            "per_facet": [],
+            "geo_facet": [
+                "United States"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "At a coffee shop last week after Los Angeles County reimposed an indoor mask mandate for everyone, regardless of vaccination status.",
+                    "copyright": "Morgan Lieberman for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/27/world/27virus-briefing-masks/27virus-briefing-masks-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/27/world/27virus-briefing-masks/27virus-briefing-masks-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/27/world/27virus-briefing-masks/27virus-briefing-masks-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/fcde30a2-f609-531f-b5c9-8e7df51a2f44",
+            "url": "https://www.nytimes.com/2021/07/24/technology/joseph-mercola-coronavirus-misinformation-online.html",
+            "id": 100000007878607,
+            "asset_id": 100000007878607,
+            "source": "New York Times",
+            "published_date": "2021-07-24",
+            "updated": "2021-07-26 16:01:41",
+            "section": "Technology",
+            "subsection": "",
+            "nytdsection": "technology",
+            "adx_keywords": "Coronavirus (2019-nCoV);Vaccination and Immunization;Rumors and Misinformation;Social Media;Content Type: Personal Profile;Mercola, Joseph M (1954- );Elizabeth, Erin",
+            "column": null,
+            "byline": "By Sheera Frenkel",
+            "type": "Article",
+            "title": "The Most Influential Spreader of Coronavirus Misinformation Online",
+            "abstract": "Researchers and regulators say Joseph Mercola, an osteopathic physician, creates and profits from misleading claims about Covid-19 vaccines.",
+            "des_facet": [
+                "Coronavirus (2019-nCoV)",
+                "Vaccination and Immunization",
+                "Rumors and Misinformation",
+                "Social Media",
+                "Content Type: Personal Profile"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Mercola, Joseph M (1954- )",
+                "Elizabeth, Erin"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Joseph Mercola, an osteopathic physician in Cape Coral, Fla., is a key figure in the “Disinformation Dozen” spreading anti-vaccine messaging, researchers said.",
+                    "copyright": "Mercola",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/22/business/00mercola/00mercola-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/22/business/00mercola/00mercola-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/22/business/00mercola/00mercola-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/d97f4dfe-2160-56f1-8f59-ec0c50c7cd1f",
+            "url": "https://www.nytimes.com/2021/07/30/health/covid-cdc-delta-masks.html",
+            "id": 100000007894933,
+            "asset_id": 100000007894933,
+            "source": "New York Times",
+            "published_date": "2021-07-30",
+            "updated": "2021-08-01 16:24:05",
+            "section": "Health",
+            "subsection": "",
+            "nytdsection": "health",
+            "adx_keywords": "Coronavirus (2019-nCoV);Disease Rates;Vaccination and Immunization;your-feed-science;Centers for Disease Control and Prevention;United States",
+            "column": null,
+            "byline": "By Apoorva Mandavilli",
+            "type": "Article",
+            "title": "C.D.C. Internal Report Calls Delta Variant as Contagious as Chickenpox",
+            "abstract": "Infections in vaccinated Americans are rare, compared with those in unvaccinated people, the document said. But when they occur, vaccinated people may spread the virus just as easily.",
+            "des_facet": [
+                "Coronavirus (2019-nCoV)",
+                "Disease Rates",
+                "Vaccination and Immunization",
+                "your-feed-science"
+            ],
+            "org_facet": [
+                "Centers for Disease Control and Prevention"
+            ],
+            "per_facet": [],
+            "geo_facet": [
+                "United States"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Shoppers in Los Angeles. The C.D.C. now recommends that even vaccinated people wear masks in communities where the virus is surging because of the Delta variant.",
+                    "copyright": "Marcio Jose Sanchez/Associated Press",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/29/multimedia/29virus-delta-2/29virus-delta-2-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/29/multimedia/29virus-delta-2/merlin_191059200_7dedd77d-04cb-474e-8a58-db15ce61146f-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/29/multimedia/29virus-delta-2/merlin_191059200_7dedd77d-04cb-474e-8a58-db15ce61146f-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/8b61e924-57ef-5f75-b5ae-bece373bf774",
+            "url": "https://www.nytimes.com/2021/07/30/us/politics/trump-justice-department-election.html",
+            "id": 100000007895135,
+            "asset_id": 100000007895135,
+            "source": "New York Times",
+            "published_date": "2021-07-30",
+            "updated": "2021-07-31 13:40:43",
+            "section": "U.S.",
+            "subsection": "Politics",
+            "nytdsection": "u.s.",
+            "adx_keywords": "Presidential Election of 2020;Voter Fraud (Election Fraud);United States Politics and Government;Ethics and Official Misconduct;Corruption (Institutional);Conspiracy Theories;Trump, Donald J;Rosen, Jeffrey Adam (1958- );Donoghue, Richard P (1967- );Biden, Joseph R Jr;Johnson, Ron (1955- );Jordan, Jim (1964- );Perry, Scott G (1962- );Justice Department;Republican Party",
+            "column": null,
+            "byline": "By Katie Benner",
+            "type": "Article",
+            "title": "Trump Pressed Justice Dept. to Declare Election Results Corrupt, Notes Show",
+            "abstract": "“Leave the rest to me” and to congressional allies, the former president is said to have told top law enforcement officials.",
+            "des_facet": [
+                "Presidential Election of 2020",
+                "Voter Fraud (Election Fraud)",
+                "United States Politics and Government",
+                "Ethics and Official Misconduct",
+                "Corruption (Institutional)",
+                "Conspiracy Theories"
+            ],
+            "org_facet": [
+                "Justice Department",
+                "Republican Party"
+            ],
+            "per_facet": [
+                "Trump, Donald J",
+                "Rosen, Jeffrey Adam (1958- )",
+                "Donoghue, Richard P (1967- )",
+                "Biden, Joseph R Jr",
+                "Johnson, Ron (1955- )",
+                "Jordan, Jim (1964- )",
+                "Perry, Scott G (1962- )"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "The demands are the latest example of President Donald J. Trump’s wide-ranging efforts to delegitimize the election results during his final weeks in office.",
+                    "copyright": "Anna Moneymaker for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/30/us/politics/30dc-pressure1/30dc-pressure1-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/30/us/politics/30dc-pressure1/merlin_179990412_f9f6cfdf-2114-4088-a616-38c894e61168-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/30/us/politics/30dc-pressure1/merlin_179990412_f9f6cfdf-2114-4088-a616-38c894e61168-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/bf4abaa4-4427-5a87-90ee-9714833fa18f",
+            "url": "https://www.nytimes.com/2021/07/27/health/coronavirus-vaccination-hesitancy-delta.html",
+            "id": 100000007878419,
+            "asset_id": 100000007878419,
+            "source": "New York Times",
+            "published_date": "2021-07-27",
+            "updated": "2021-07-31 12:22:34",
+            "section": "Health",
+            "subsection": "",
+            "nytdsection": "health",
+            "adx_keywords": "your-feed-science;Vaccination and Immunization;Disease Rates;Coronavirus (2019-nCoV);Rumors and Misinformation;Polls and Public Opinion;United States",
+            "column": null,
+            "byline": "By Roni Caryn Rabin",
+            "type": "Article",
+            "title": "As Virus Cases Rise, Another Contagion Spreads Among the Vaccinated: Anger",
+            "abstract": "Frustrated by the prospect of a new surge, many Americans are blaming the unvaccinated. A tougher stance may backfire, some experts warn.",
+            "des_facet": [
+                "your-feed-science",
+                "Vaccination and Immunization",
+                "Disease Rates",
+                "Coronavirus (2019-nCoV)",
+                "Rumors and Misinformation",
+                "Polls and Public Opinion"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [
+                "United States"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Josh Perldeiner, of Wallingford, Conn., fears his 2-year-old son, too young to be vaccinated, was exposed to the coronavirus by a close relative who refuses to get the shot.",
+                    "copyright": "Christopher Capozziello for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/23/science/00virus-frustration1/00virus-frustration1-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/23/science/00virus-frustration1/00virus-frustration1-mediumThreeByTwo210-v2.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/23/science/00virus-frustration1/00virus-frustration1-mediumThreeByTwo440-v2.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/bbcb8c12-a6ec-5b66-ad2c-6b82a2c3d5c0",
+            "url": "https://www.nytimes.com/2021/07/30/us/covid-vaccine-hesitancy-regret.html",
+            "id": 100000007886932,
+            "asset_id": 100000007886932,
+            "source": "New York Times",
+            "published_date": "2021-07-30",
+            "updated": "2021-08-01 17:01:38",
+            "section": "U.S.",
+            "subsection": "",
+            "nytdsection": "u.s.",
+            "adx_keywords": "Coronavirus (2019-nCoV);Vaccination and Immunization;Social Media;Rumors and Misinformation;Disease Rates;Utah",
+            "column": null,
+            "byline": "By Jack Healy",
+            "type": "Article",
+            "title": "They Spurned the Vaccine. Now They Want You to Know They Regret It.",
+            "abstract": "People who once rejected the vaccine or simply waited too long are now grappling with the consequences, often in raw, public ways.",
+            "des_facet": [
+                "Coronavirus (2019-nCoV)",
+                "Vaccination and Immunization",
+                "Social Media",
+                "Rumors and Misinformation",
+                "Disease Rates"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [
+                "Utah"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Kim Raff for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/28/us/00virus-remorse-4/00virus-remorse-4-thumbStandard-v3.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/28/us/00virus-remorse-4/00virus-remorse-4-mediumThreeByTwo210-v3.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/28/us/00virus-remorse-4/00virus-remorse-4-mediumThreeByTwo440-v3.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/e47c652f-8b1c-5f07-ab62-1b915e3fa140",
+            "url": "https://www.nytimes.com/2021/07/29/health/cdc-masks-vaccinated-transmission.html",
+            "id": 100000007890517,
+            "asset_id": 100000007890517,
+            "source": "New York Times",
+            "published_date": "2021-07-29",
+            "updated": "2021-07-30 13:17:41",
+            "section": "Health",
+            "subsection": "",
+            "nytdsection": "health",
+            "adx_keywords": "Coronavirus (2019-nCoV);Vaccination and Immunization;Coronavirus Risks and Safety Concerns;Disease Rates;your-feed-science;Walensky, Rochelle;Centers for Disease Control and Prevention;United States",
+            "column": null,
+            "byline": "By Apoorva Mandavilli",
+            "type": "Article",
+            "title": "Behind the Masks, a Mystery: How Often Do the Vaccinated Spread the Virus?",
+            "abstract": "The C.D.C.’s new masking advice was based in part on data showing that the virus can thrive in the airways of vaccinated people. The findings are expected on Friday.",
+            "des_facet": [
+                "Coronavirus (2019-nCoV)",
+                "Vaccination and Immunization",
+                "Coronavirus Risks and Safety Concerns",
+                "Disease Rates",
+                "your-feed-science"
+            ],
+            "org_facet": [
+                "Centers for Disease Control and Prevention"
+            ],
+            "per_facet": [
+                "Walensky, Rochelle"
+            ],
+            "geo_facet": [
+                "United States"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A salon in Los Angeles this week, where indoor mask mandates were reinstated on July 15.",
+                    "copyright": "Alex Welsh for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/29/science/29virus-transmit1/29virus-transmit1-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/29/science/29virus-transmit1/29virus-transmit1-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/29/science/29virus-transmit1/29virus-transmit1-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/264a13b2-71fa-56c7-b6c6-f377f41eeb88",
+            "url": "https://www.nytimes.com/2021/07/24/style/are-you-in-an-inter-intimate-relationship.html",
+            "id": 100000007794156,
+            "asset_id": 100000007794156,
+            "source": "New York Times",
+            "published_date": "2021-07-24",
+            "updated": "2021-07-26 13:52:00",
+            "section": "Style",
+            "subsection": "",
+            "nytdsection": "style",
+            "adx_keywords": "Dating and Relationships;Touch (Sense);Content Type: Service",
+            "column": null,
+            "byline": "By Allison Hope",
+            "type": "Article",
+            "title": "Are You in an ‘Inter-Intimate’ Relationship?",
+            "abstract": "For some couples, having different nonsexual intimacy preferences can be a strain on the relationship. Here’s how to meet in the middle.",
+            "des_facet": [
+                "Dating and Relationships",
+                "Touch (Sense)",
+                "Content Type: Service"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Tatjana Prenzel",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/25/fashion/15interintimate-relationships/15interintimate-relationships-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/25/fashion/15interintimate-relationships/15interintimate-relationships-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/25/fashion/15interintimate-relationships/15interintimate-relationships-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/e49cfae5-ebf9-5549-b66b-1681229058e6",
+            "url": "https://www.nytimes.com/2021/07/27/sports/olympics/russia-wins-gold-medal-gymnastics.html",
+            "id": 100000007888037,
+            "asset_id": 100000007888037,
+            "source": "New York Times",
+            "published_date": "2021-07-27",
+            "updated": "2021-08-02 04:55:12",
+            "section": "Sports",
+            "subsection": "Olympics",
+            "nytdsection": "sports",
+            "adx_keywords": "Olympic Games (2020);Gymnastics;Anxiety and Stress;Mental Health and Disorders;Biles, Simone",
+            "column": null,
+            "byline": "By Juliet Macur",
+            "type": "Article",
+            "title": "Simone Biles Said She Was Not in a Good Place Mentally to Continue",
+            "abstract": "The departure of the top American star during the women’s gymnastics team final gave Russia a clear path to victory.",
+            "des_facet": [
+                "Olympic Games (2020)",
+                "Gymnastics",
+                "Anxiety and Stress",
+                "Mental Health and Disorders"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Biles, Simone"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "The Russian team won gold, finishing more than three points ahead of the United States women’s gymnastics team. Britain won the bronze medal.",
+                    "copyright": "Doug Mills/The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/27/sports/olympics/27live-gymnastics-doug-1874/27live-gymnastics-doug-1874-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/27/sports/olympics/27live-gymnastics-doug-1874/27live-gymnastics-doug-1874-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/27/sports/olympics/27live-gymnastics-doug-1874/27live-gymnastics-doug-1874-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/0b7eeb01-a1d8-5043-b680-97159acb49bb",
+            "url": "https://www.nytimes.com/2021/07/30/health/cdc-vaccinated-delta.html",
+            "id": 100000007895822,
+            "asset_id": 100000007895822,
+            "source": "New York Times",
+            "published_date": "2021-07-30",
+            "updated": "2021-07-31 13:12:38",
+            "section": "Health",
+            "subsection": "",
+            "nytdsection": "health",
+            "adx_keywords": "your-feed-science;Coronavirus Risks and Safety Concerns;Disease Rates;Vaccination and Immunization;Coronavirus (2019-nCoV);Centers for Disease Control and Prevention;Provincetown (Mass);United States",
+            "column": null,
+            "byline": "By Apoorva Mandavilli",
+            "type": "Article",
+            "title": "Vaccinated People May Spread the Virus, Though Rarely, C.D.C. Reports",
+            "abstract": "The agency cited an outbreak in Provincetown, Mass., in which most of the infected were immunized. An internal C.D.C. document paints an even more harrowing picture.",
+            "des_facet": [
+                "your-feed-science",
+                "Coronavirus Risks and Safety Concerns",
+                "Disease Rates",
+                "Vaccination and Immunization",
+                "Coronavirus (2019-nCoV)"
+            ],
+            "org_facet": [
+                "Centers for Disease Control and Prevention"
+            ],
+            "per_facet": [],
+            "geo_facet": [
+                "Provincetown (Mass)",
+                "United States"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A dose of the Pfizer-BioNTech vaccine being administered at a three-day clinic in Wilmington, Calif., on Thursday.",
+                    "copyright": "Mario Tama/Getty Images",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/30/science/30virus-delta2/30virus-delta2-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/30/science/30virus-delta2/30virus-delta2-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/30/science/30virus-delta2/30virus-delta2-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/727353f4-e543-5179-bd79-52a096ae8f00",
+            "url": "https://www.nytimes.com/2021/07/27/us/terry-mckirchy-shaken-baby-murder-indicted.html",
+            "id": 100000007888777,
+            "asset_id": 100000007888777,
+            "source": "New York Times",
+            "published_date": "2021-07-27",
+            "updated": "2021-07-29 11:15:10",
+            "section": "U.S.",
+            "subsection": "",
+            "nytdsection": "u.s.",
+            "adx_keywords": "Murders, Attempted Murders and Homicides;Shaken Baby Syndrome;Child Abuse and Neglect;Dowling, Benjamin K (d 2019);McKirchy, Terry;Florida;Broward County (Fla)",
+            "column": null,
+            "byline": "By Neil Vigdor",
+            "type": "Article",
+            "title": "Woman Faces Murder Charge After Man Shaken as Baby Dies at 35",
+            "abstract": "Terry McKirchy was arrested after a grand jury in Broward County, Fla., indicted her in the 2019 death of Benjamin Dowling, who was severely disabled after his parents left him in her care in 1984.",
+            "des_facet": [
+                "Murders, Attempted Murders and Homicides",
+                "Shaken Baby Syndrome",
+                "Child Abuse and Neglect"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Dowling, Benjamin K (d 2019)",
+                "McKirchy, Terry"
+            ],
+            "geo_facet": [
+                "Florida",
+                "Broward County (Fla)"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Benjamin Dowling in an undated photo. An autopsy found that his death in 2019, at 35, “was directly caused by the injuries from 1984,” the Broward County State Attorney’s Office said.",
+                    "copyright": "Family Photo",
+                    "approved_for_syndication": 0,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/27/us/27xp-shakenbaby-1/27xp-shakenbaby-1-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/27/us/27xp-shakenbaby-1/27xp-shakenbaby-1-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/27/us/27xp-shakenbaby-1/27xp-shakenbaby-1-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/c938d919-7ac1-5375-ad50-93bcbe1942c5",
+            "url": "https://www.nytimes.com/2021/07/28/opinion/ben-and-jerry-israel.html",
+            "id": 100000007888670,
+            "asset_id": 100000007888670,
+            "source": "New York Times",
+            "published_date": "2021-07-28",
+            "updated": "2021-07-31 14:29:27",
+            "section": "Opinion",
+            "subsection": "",
+            "nytdsection": "opinion",
+            "adx_keywords": "Ice Cream and Frozen Desserts;Corporate Social Responsibility;Palestinians;Human Rights and Human Rights Violations;Israeli Settlements;Ben & Jerry's Homemade Inc;Israel",
+            "column": null,
+            "byline": "By Bennett Cohen and Jerry Greenfield",
+            "type": "Article",
+            "title": "We’re Ben and Jerry. Men of Ice Cream, Men of Principle.",
+            "abstract": "We support the company's decision to end the sale of its ice cream in the occupied Palestinian territories.",
+            "des_facet": [
+                "Ice Cream and Frozen Desserts",
+                "Corporate Social Responsibility",
+                "Palestinians",
+                "Human Rights and Human Rights Violations",
+                "Israeli Settlements"
+            ],
+            "org_facet": [
+                "Ben & Jerry's Homemade Inc"
+            ],
+            "per_facet": [],
+            "geo_facet": [
+                "Israel"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Emmanuel Dunand/Agence France-Presse, via Getty Images",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/28/opinion/28Ben-andJerry/28Ben-andJerry-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/28/opinion/28Ben-andJerry/28Ben-andJerry-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/28/opinion/28Ben-andJerry/28Ben-andJerry-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/07e4d88e-e799-5fe6-b97f-878e6c67f86b",
+            "url": "https://www.nytimes.com/2021/07/28/sports/olympics/simone-biles-out.html",
+            "id": 100000007890173,
+            "asset_id": 100000007890173,
+            "source": "New York Times",
+            "published_date": "2021-07-28",
+            "updated": "2021-08-02 04:43:39",
+            "section": "Sports",
+            "subsection": "Olympics",
+            "nytdsection": "sports",
+            "adx_keywords": "Olympic Games (2020);Biles, Simone",
+            "column": null,
+            "byline": "By Juliet Macur",
+            "type": "Article",
+            "title": "Simone Biles is withdrawing from the Olympic all-around gymnastics competition.",
+            "abstract": "Biles will not compete Thursday after missing most of the team final because she said she was not in the right mental place to continue without risking severe injury.",
+            "des_facet": [
+                "Olympic Games (2020)"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Biles, Simone"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Simone Biles pulled out of the women’s gymnastics team final on Tuesday night.",
+                    "copyright": "Doug Mills/The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2021/08/27/sports/27biles-social-card/27biles-social-card-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/08/27/sports/27biles-social-card/27biles-social-card-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/08/27/sports/27biles-social-card/27biles-social-card-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/d8b45c58-086f-5105-be16-279273a19d91",
+            "url": "https://www.nytimes.com/2021/07/27/magazine/matt-damon.html",
+            "id": 100000007882956,
+            "asset_id": 100000007882956,
+            "source": "New York Times",
+            "published_date": "2021-07-27",
+            "updated": "2021-08-01 13:16:44",
+            "section": "Magazine",
+            "subsection": "",
+            "nytdsection": "magazine",
+            "adx_keywords": "Actors and Actresses;Movies;Content Type: Personal Profile;Damon, Matt",
+            "column": null,
+            "byline": "By David Marchese",
+            "type": "Article",
+            "title": "Matt Damon’s Disappearing Acts",
+            "abstract": "The enduring career of the megastar no one really knows.",
+            "des_facet": [
+                "Actors and Actresses",
+                "Movies",
+                "Content Type: Personal Profile"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Damon, Matt"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Christopher Anderson/Magnum, for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2021/08/01/magazine/01mag-damon-03/01mag-damon-03-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/08/01/magazine/01mag-damon-03/01mag-damon-03-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/08/01/magazine/01mag-damon-03/01mag-damon-03-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/99f9ac64-2420-5612-80b9-9dcce2621107",
+            "url": "https://www.nytimes.com/2021/07/22/health/coronavirus-breakthrough-infections-delta.html",
+            "id": 100000007874246,
+            "asset_id": 100000007874246,
+            "source": "New York Times",
+            "published_date": "2021-07-22",
+            "updated": "2021-07-31 15:52:07",
+            "section": "Health",
+            "subsection": "",
+            "nytdsection": "health",
+            "adx_keywords": "your-feed-science;Coronavirus Risks and Safety Concerns;Vaccination and Immunization;Disease Rates;Coronavirus (2019-nCoV);United States",
+            "column": null,
+            "byline": "By Apoorva Mandavilli",
+            "type": "Article",
+            "title": "Why Vaccinated People Are Getting ‘Breakthrough’ Infections",
+            "abstract": "The vaccines are effective at preventing serious illness and death, but they are not a golden shield against the coronavirus.",
+            "des_facet": [
+                "your-feed-science",
+                "Coronavirus Risks and Safety Concerns",
+                "Vaccination and Immunization",
+                "Disease Rates",
+                "Coronavirus (2019-nCoV)"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [
+                "United States"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Covid testing at a site in in Los Angeles earlier this month.",
+                    "copyright": "Mario Tama/Getty Images",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/22/science/22virus-breakthrough1/22virus-breakthrough1-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/22/science/22virus-breakthrough1/22virus-breakthrough1-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/22/science/22virus-breakthrough1/22virus-breakthrough1-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/d3045f90-64e2-578b-b035-544dabdb2c42",
+            "url": "https://www.nytimes.com/2021/07/21/well/move/weight-training-fat.html",
+            "id": 100000007873785,
+            "asset_id": 100000007873785,
+            "source": "New York Times",
+            "published_date": "2021-07-21",
+            "updated": "2021-07-28 08:16:49",
+            "section": "Well",
+            "subsection": "Move",
+            "nytdsection": "well",
+            "adx_keywords": "Exercise;Muscles;Obesity;Research;Weight Lifting;Weight;FASEB Journal",
+            "column": null,
+            "byline": "By Gretchen Reynolds",
+            "type": "Article",
+            "title": "Lifting Weights? Your Fat Cells Would Like to Have a Word.",
+            "abstract": "A cellular chat after your workout may explain in part why weight training burns fat.",
+            "des_facet": [
+                "Exercise",
+                "Muscles",
+                "Obesity",
+                "Research",
+                "Weight Lifting",
+                "Weight"
+            ],
+            "org_facet": [
+                "FASEB Journal"
+            ],
+            "per_facet": [],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Andrew Testa for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/27/well/physed-weights/physed-weights-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/27/well/physed-weights/physed-weights-mediumThreeByTwo210-v2.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/27/well/physed-weights/physed-weights-mediumThreeByTwo440-v2.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/49811546-f6b0-5c54-a194-e43b92ab5de6",
+            "url": "https://www.nytimes.com/2021/07/28/well/live/motivation-energy-advice.html",
+            "id": 100000007883281,
+            "asset_id": 100000007883281,
+            "source": "New York Times",
+            "published_date": "2021-07-28",
+            "updated": "2021-07-30 12:42:16",
+            "section": "Well",
+            "subsection": "Live",
+            "nytdsection": "well",
+            "adx_keywords": "Content Type: Service;Psychology and Psychologists",
+            "column": null,
+            "byline": "By Cameron Walker",
+            "type": "Article",
+            "title": "How to Get Things Done When You Don’t Want to Do Anything",
+            "abstract": "The drive to be your best can be hard to muster right about now. Here are some ways to get your mojo back.",
+            "des_facet": [
+                "Content Type: Service",
+                "Psychology and Psychologists"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "George Wylesol",
+                    "approved_for_syndication": 0,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/26/well/00well-motivation/00well-motivation-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/26/well/00well-motivation/00well-motivation-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/26/well/00well-motivation/00well-motivation-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/f971062f-502d-5ce4-a37b-0f609099163f",
+            "url": "https://www.nytimes.com/2021/07/23/health/superbug-fungus-cdc.html",
+            "id": 100000007882968,
+            "asset_id": 100000007882968,
+            "source": "New York Times",
+            "published_date": "2021-07-23",
+            "updated": "2021-07-23 23:03:26",
+            "section": "Health",
+            "subsection": "",
+            "nytdsection": "health",
+            "adx_keywords": "Candida Auris (Fungus);Drug Resistance (Microbial);Infections;your-feed-healthcare;Centers for Disease Control and Prevention;Texas;Washington (DC)",
+            "column": null,
+            "byline": "By Andrew Jacobs",
+            "type": "Article",
+            "title": "Outbreaks of Untreatable, Drug-Resistant Fungus Spread in 2 Cities",
+            "abstract": "For the first time, the C.D.C. identified several cases of Candida auris that were resistant to all drugs, in two health facilities in Texas and a long-term care center in Washington, D.C.",
+            "des_facet": [
+                "Candida Auris (Fungus)",
+                "Drug Resistance (Microbial)",
+                "Infections",
+                "your-feed-healthcare"
+            ],
+            "org_facet": [
+                "Centers for Disease Control and Prevention"
+            ],
+            "per_facet": [],
+            "geo_facet": [
+                "Texas",
+                "Washington (DC)"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Cultured Candida auris, right, which was first discovered in 2009.",
+                    "copyright": "Centers for Disease Control and Prevention",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/23/science/23fungus/23fungus-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/23/science/23fungus/merlin_153599739_efd4a3e0-9a83-4d33-87d2-9b7142cbed3e-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/23/science/23fungus/merlin_153599739_efd4a3e0-9a83-4d33-87d2-9b7142cbed3e-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/ba3f9a0c-b455-5a00-93c8-fd355cec6977",
+            "url": "https://www.nytimes.com/2021/07/28/science/red-asteroids-belt.html",
+            "id": 100000007890539,
+            "asset_id": 100000007890539,
+            "source": "New York Times",
+            "published_date": "2021-07-28",
+            "updated": "2021-07-28 18:12:33",
+            "section": "Science",
+            "subsection": "",
+            "nytdsection": "science",
+            "adx_keywords": "Asteroids;Space and Astronomy;Solar System;Neptune (Planet);Research;Astrophysical Journal Letters",
+            "column": null,
+            "byline": "By Jonathan O’Callaghan",
+            "type": "Article",
+            "title": "2 Red Objects Were Found in the Asteroid Belt. They Shouldn’t Be There.",
+            "abstract": "The space rocks may have come from beyond Neptune, and potentially offer hints at the chaos of the early solar system.",
+            "des_facet": [
+                "Asteroids",
+                "Space and Astronomy",
+                "Solar System",
+                "Neptune (Planet)",
+                "Research"
+            ],
+            "org_facet": [
+                "Astrophysical Journal Letters"
+            ],
+            "per_facet": [],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "An artist's concept of Arrokoth, a Kuiper Belt object visited by the New Horizons spacecraft in 2019. Scientists say two asteroids, 203 Pompeja and 269 Justitia, appear to have a similar color.",
+                    "copyright": "Science Photo Library/Alamy ",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2021/08/03/science/2sci-asteroids/2sci-asteroids-thumbStandard-v2.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/08/03/science/2sci-asteroids/2sci-asteroids-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/08/03/science/2sci-asteroids/2sci-asteroids-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/54e8fdc7-66b7-57ae-ac6e-34b21ef1505c",
+            "url": "https://www.nytimes.com/2021/07/27/us/politics/mo-brooks-justice-department-lawsuit.html",
+            "id": 100000007889070,
+            "asset_id": 100000007889070,
+            "source": "New York Times",
+            "published_date": "2021-07-27",
+            "updated": "2021-07-28 10:28:13",
+            "section": "U.S.",
+            "subsection": "Politics",
+            "nytdsection": "u.s.",
+            "adx_keywords": "Suits and Litigation (Civil);United States Politics and Government;Storming of the US Capitol (Jan, 2021);Immunity from Prosecution;Voter Fraud (Election Fraud);Demonstrations, Protests and Riots;Brooks, Morris Jackson;Swalwell, Eric M;Trump, Donald J;Trump, Donald J Jr;House of Representatives;Justice Department",
+            "column": null,
+            "byline": "By Katie Benner",
+            "type": "Article",
+            "title": "U.S. Declines to Defend Trump Ally in Lawsuit Over Jan. 6 Riot",
+            "abstract": "The move could mean that the Justice Department is also unlikely to defend former President Donald J. Trump in the case.",
+            "des_facet": [
+                "Suits and Litigation (Civil)",
+                "United States Politics and Government",
+                "Storming of the US Capitol (Jan, 2021)",
+                "Immunity from Prosecution",
+                "Voter Fraud (Election Fraud)",
+                "Demonstrations, Protests and Riots"
+            ],
+            "org_facet": [
+                "House of Representatives",
+                "Justice Department"
+            ],
+            "per_facet": [
+                "Brooks, Morris Jackson",
+                "Swalwell, Eric M",
+                "Trump, Donald J",
+                "Trump, Donald J Jr"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "&ldquo;Are you willing to do what it takes to fight for America?&rdquo; Representative Mo Brooks of Alabama asked a crowd at a rally in support of President Donald J. Trump before the Capitol riot.",
+                    "copyright": "Jacquelyn Martin/Associated Press",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/28/us/politics/27dc-justiceprint/27dc-justice2-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/28/us/politics/27dc-justiceprint/merlin_185202861_54f1fea1-eaa8-4c28-a0f4-4a5710184a7b-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/07/28/us/politics/27dc-justiceprint/merlin_185202861_54f1fea1-eaa8-4c28-a0f4-4a5710184a7b-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        }
+    ]
+}
