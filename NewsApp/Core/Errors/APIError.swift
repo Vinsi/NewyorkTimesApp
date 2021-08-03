@@ -8,12 +8,14 @@
 import Foundation
 
 enum APIError: Error {
+    
     case decodingError
     case errorCode(Int)
     case unknown
 }
 
 extension APIError: LocalizedError {
+    
     var errorDescription: String? {
         switch self {
         case .decodingError:

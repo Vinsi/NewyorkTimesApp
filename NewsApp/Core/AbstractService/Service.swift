@@ -1,8 +1,8 @@
 //
-//  NewsService.swift
+//  Service.swift
 //  NewsApp
 //
-//  Created by Vinsi on 29/07/2021.
+//  Created by Vinsi on 03/08/2021.
 //
 
 import Foundation
@@ -12,7 +12,7 @@ protocol Service { }
 
 extension Service {
     
-    func request<T:APIBuilder, R: Codable>(from endpoint: T, responseType: R.Type) -> AnyPublisher<R, APIError> {
+    func request<T: APIBuilder, R: Codable>(from endpoint: T, responseType: R.Type) -> AnyPublisher<R, APIError> {
         return URLSession
             .shared
             .dataTaskPublisher(for: endpoint.urlRequest)
@@ -36,12 +36,5 @@ extension Service {
                 }
             }
             .eraseToAnyPublisher()
-    }
-}
-
-struct NewsServiceImpl: Service {
-    
-    func request(from endpoint: NewsAPI) -> AnyPublisher<NewsResponse, APIError> {
-         request(from: endpoint, responseType: NewsResponse.self)
     }
 }

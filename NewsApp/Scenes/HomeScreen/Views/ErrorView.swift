@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 
 struct ErrorView: View {
+    
     typealias ErrorViewActionHandler = () -> Void
     
     let error: Error

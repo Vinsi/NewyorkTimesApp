@@ -5,29 +5,9 @@
 //  Created by Vinsi on 29/07/2021.
 //
 
-import Foundation
-
-protocol APIBuilder {
-    
-    var urlRequest: URLRequest { get }
-    var baseURL: String { get }
-    var path: String { get }
-    var query: [String: String] { get }
-    
-}
-
-extension  APIBuilder {
-    
-    var urlRequest: URLRequest {
-        let param = query.reduce("", {
-            "\($0)&\($1.key)=\($1.value)"
-        })
-        let url = "https://\(baseURL)/\(path)?\(param)"
-        return URLRequest(url:  URL(string: url)!)
-    }
-}
-
 struct NewsAPI: APIBuilder {
+
+    var method: HttpMethod = HttpMethod.get
     
     var query: [String: String] {
         guard let token = key else {
@@ -60,6 +40,7 @@ struct NewsAPI: APIBuilder {
 extension NewsAPI {
     
     enum Version: String {
+        
         case v1
         case v2
     }
@@ -71,12 +52,14 @@ extension NewsAPI {
     }
     
     enum Period: Int {
+        
         case oneDayAgo = 1
         case sevenDaysAgo = 7
         case thirtyDaysAgo = 30
     }
     
     enum Parameter {
+        
         case mostViewed(section: Section, days: Period)
         var path: String {
             "mostviewed"

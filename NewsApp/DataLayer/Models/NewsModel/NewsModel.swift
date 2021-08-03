@@ -63,6 +63,7 @@ extension NewsResponse {
     
     // MARK: - MediaMetadatum
     struct MediaMetadatum: Codable {
+        
         let url: String?
         let format: String?
         let height: Int?

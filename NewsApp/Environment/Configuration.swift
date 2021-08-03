@@ -1,21 +1,21 @@
 //
-//  Environment.swift
+//  Configuration.swift
 //  NewsApp
 //
-//  Created by Vinsi on 01/08/2021.
+//  Created by Vinsi on 03/08/2021.
 //
 
 import Foundation
 
-enum AppEnvironment {
-    
-    case uat
-    case qa
-    case prod
-}
-
 enum Configuration {
     
+    enum Environment {
+        
+        case uat
+        case qa
+        case prod
+    }
+
     enum Error: Swift.Error {
         case missingKey, invalidValue
     }
@@ -36,7 +36,7 @@ enum Configuration {
         }
     }
    
-    static var environment: AppEnvironment {
+    static var environment: Environment {
         #if PROD
         return .prod
         #elseif QA
